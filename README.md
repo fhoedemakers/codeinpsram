@@ -230,3 +230,12 @@ Throughput is 49,174 bytes per pass divided by the time per pass (1 MB = 10^6 by
 - Straight-line code is the most favourable case for streaming. Code with frequent
   jumps to locations outside the cache restarts a transfer on every jump and is
   expected to be slower; the random-dispatch benchmark measures this case.
+
+## License
+
+This project is licensed under the MIT License; see [LICENSE](LICENSE).
+
+`psram.c` is based on `ports/rp2/rp2_psram.c` from the
+[MicroPython](https://github.com/micropython/micropython) project, copyright (c) 2025
+Phil Howard, Mike Bell and Kirk D. Benell, which is also licensed under the MIT
+License. The original copyright notice is retained in that file.
