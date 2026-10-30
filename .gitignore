@@ -1,0 +1,13 @@
+*Zone.Identifier
+
+# CMake build output
+/build/
+
+# Build artifacts
+*.elf
+*.uf2
+*.bin
+*.hex
+*.dis
+*.map
+*.o
